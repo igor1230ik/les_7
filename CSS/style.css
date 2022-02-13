@@ -1,0 +1,431 @@
+/* ========================== Обнуляющий стиль ================================================== */
+@import "null.css";
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #e8e8e8;
+    color: #273d46;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+.container {
+    max-width: 1440px;
+    margin: 106px auto 0;
+    border: 2px solid red;
+    text-align: center;
+}
+.products {
+    border: 2px solid yellow;
+    max-width: 1332px;
+    background: url("../IMG/ellipse_1_copy_4.png") 100px -10px no-repeat;
+    margin-bottom: 50px;
+}
+.content {
+    max-width: 1220px;
+    margin: 38px auto 0;
+    border: 2px solid green;
+    padding: 0 15px 0 15px;
+}
+.header h1 {
+    opacity: 0.6;
+    line-height: 39px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    max-width: 900px;
+    border: 2px solid #000;
+}
+
+.header h2 {
+    font-family: "Times New Roman";
+    font-size: 36px;
+    max-width: 740px;
+    margin: 0px auto;
+    line-height: 45px;
+    border: 2px solid #000;
+}
+h2 span {
+    line-height: 55px;
+}
+
+.header {
+    margin-bottom: 67px;
+}
+
+.main__image {
+    border: 2px solid #000;
+    margin: 0 auto 92px;
+    width: 100%;
+}
+.main__image img {
+    box-shadow: 0px 0px 0px 10px;
+    color: #fff;
+    max-width: 100%;
+}
+
+.main__content {
+    border: 2px solid #000;
+    max-width: 1170px;
+    margin-bottom: 40px;
+}
+.content__block {
+    border: 2px solid olive;
+    max-width: 740px;
+    text-align: left;
+    margin: 0 auto;
+}
+.block_info {
+    opacity: 0.8;
+    font-family: "Times New Roman";
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0 0 45px 0px;
+}
+.info__top {
+    margin-bottom: 40px;
+}
+.content__list {
+    line-height: 33px;
+    font-size: 20px;
+    margin-bottom: 57px;
+}
+.item {
+    background: url("../IMG/check_icon_37.png") 0 6px no-repeat;
+    padding-left: 35px;
+}
+
+.list__item1 {
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.list__item2 {
+    font-style: italic;
+    color: #80b7b3;
+}
+.list__item3 {
+    font-weight: 700;
+}
+.list__item4 {
+    text-decoration: line-through;
+    color: #b7bdbf;
+}
+
+.button a {
+    display: inline-block;
+    background: url("../IMG/shape_2_9.png") 128px 14px no-repeat;
+    background-color: rgba(128, 183, 179, 0.54);
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    text-align: left;
+    width: 199px;
+    height: 44px;
+    border-radius: 25px;
+    padding: 2px 0 0 30px;
+    margin-bottom: 137px;
+}
+
+/* ============================================================================================= */
+.background {
+    margin-bottom: 100px;
+    font-weight: 900;
+}
+.block__info {
+    margin-bottom: 20px;
+}
+.name__block {
+    margin-bottom: 20px;
+}
+
+.block__bg {
+    max-width: 1220px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 10px 10px rgb(24, 181, 164);
+    margin-bottom: 30px;
+}
+/* =========bg color====== */
+.bcolor1 {
+    height: 200px;
+    background-color: transparent;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.bcolor2 {
+    height: 200px;
+    background-color: #18b5a4;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.bcolor3 {
+    height: 200px;
+    background-color: rgb(255, 5, 5);
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.bcolor4 {
+    height: 200px;
+    background-color: rgba(26, 255, 5, 0.144);
+    border: 1px solid #000;
+    overflow: hidden;
+}
+/* =========bg image====== */
+
+.bimg1 {
+    height: 200px;
+    background-image: url("../IMG/avatar_2.jpg");
+}
+.bimg2 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 121, 23, 0.7491947462578781) 24%,
+        rgba(7, 139, 68, 1) 61%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+.bimg3 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: linear-gradient(
+        18deg,
+        rgba(69, 62, 198, 1) 0%,
+        rgba(241, 218, 14, 0.7491947462578781) 28%,
+        rgba(106, 139, 7, 1) 65%,
+        rgba(238, 0, 255, 1) 100%
+    );
+}
+
+/* ====== bd repeat ================ */
+
+.brepeat1 {
+    height: 250px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: repeat;
+}
+.brepeat1__1 {
+    height: 250px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg_repeat.jpg");
+    background-repeat: repeat;
+}
+.brepeat2 {
+    height: 250px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: no-repeat;
+}
+.brepeat3 {
+    height: 250px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: repeat-x;
+}
+.brepeat4 {
+    height: 250px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: repeat-y;
+}
+.brepeat5 {
+    height: 250px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: space;
+}
+.brepeat6 {
+    height: 250px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: round;
+}
+
+/* ====== bg position ============== */
+.bposition1 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 0 0;
+}
+.bposition2 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 50%;
+}
+.bposition3 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 0px 50%;
+}
+.bposition4 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 100% 100%;
+}
+.bposition5 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 200px 40px;
+}
+
+/* ===============bg attachment ===================== */
+
+.battachment1 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg_at.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+    background-attachment: scroll;
+}
+.battachment2 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg_at2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+.battachment3 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg_at.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow: auto;
+    color: #16e016;
+    background-attachment: local;
+}
+/* ============ bg size ================== */
+
+.bsize1 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg_at2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+}
+.bsize2 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/bg_at2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+}
+.bsize3 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto 100%;
+}
+.bsize4 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+.bsize5 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+}
+.bsize6 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+.bsize7 {
+    height: 200px;
+    border: 1px solid #000;
+    background-image: url("../IMG/avatar_2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 800px 150px;
+}
+/* =============== Установка нескольких изображений ====================== */
+
+.bmoreimg1 {
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #16e016;
+    background-image: url("../IMG/bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100px 100px;
+}
+.bmoreimg2 {
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #16e016;
+    background-image: url("../IMG/bg.png"), url("../IMG/bg_at2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 0;
+    background-size: 100px 100px, 100% 100%;
+}
+.bmoreimg3 {
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #16e016;
+    background-image: url("../IMG/bg.png"), url("../IMG/avatar_2.jpg"), url("../IMG/bg_at2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0, right bottom, center;
+    background-size: 100px 100px, auto auto, 50% 50%;
+}
+.bmoreimg4 {
+    height: 200px;
+    border: 1px solid #000;
+    background: url("../IMG/bg.png") 50% center / 100px 100px no-repeat scroll,
+        url("../IMG/avatar_2.jpg") 0 50% / auto auto no-repeat scroll,
+        url("../IMG/check_icon_37.png") 90% 40px / auto no-repeat, url("../IMG/bg_at2.jpg") 0 0/100% auto no-repeat;
+}
+
+/* ======== footer =========== */
+.footer__button a {
+    display: inline-block;
+    width: 199px;
+    min-height: 44px;
+    background-color: rgba(128, 183, 179, 0.54);
+    border-radius: 25px;
+    margin-bottom: 137px;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+.image {
+    margin-right: 40px;
+}

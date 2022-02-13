@@ -1,0 +1,135 @@
+/* ========================== Обнуляющий стиль ================================================== */
+@import "null.css";
+
+/* ========================== Шрифты ============================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ================================================================================================ */
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #424551;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.block {
+    max-width: 1260px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+.content {
+    max-width: 810px;
+    margin-top: 190px;
+}
+
+.header h1 {
+    font-size: 46px;
+    line-height: 1.3;
+    font-weight: 900;
+    color: #1e212c;
+    margin-bottom: 33px;
+}
+.header h1 span ~ span {
+    padding: 0 0 0 9px;
+}
+.time {
+    color: #787a80;
+    margin-bottom: 40px;
+}
+
+.time div img {
+    margin: 0 6px 0 0px;
+}
+.time div span {
+    display: inline-block;
+    margin: 0 21px 0 0px;
+}
+.time div img ~ img {
+    margin: 0 4px 0 0px;
+}
+.content__image {
+    width: 100%;
+    margin-bottom: 63px;
+}
+.content__image img {
+    max-width: 100%;
+}
+
+.info__title > p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1e212c;
+    margin-bottom: 24px;
+}
+.info_block {
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+.info_block > p {
+    margin-bottom: 29px;
+}
+.info_block p ~ p {
+    margin-bottom: 0px;
+}
+.info__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1e212c;
+    margin-bottom: 48px;
+    background: url("../IMG/mark.svg") 18px 0, url("../IMG/mark.svg") 0 0;
+    background-repeat: no-repeat;
+    padding: 0 0 0 58px;
+}
+.info__list {
+    line-height: 1.6;
+}
+.list__title {
+    margin-bottom: 24px;
+}
+.list__block {
+    margin-bottom: 20px;
+}
+.list__block li {
+    background-image: url("../IMG/icon2.svg");
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    background-size: 16px;
+    padding-left: 32px;
+    min-height: 30px;
+    line-height: 1.84;
+}
+.list__subtitle {
+    margin-bottom: 100px;
+}
+.button {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+    min-height: 100%;
+}
+.button a {
+    width: 199px;
+    background-color: rgba(128, 183, 179, 0.54);
+    padding: 15px 0 15px 0;
+    font-weight: 900;
+}
+.button > a {
+    display: inline-block;
+    margin-right: 80px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.button > a ~ a {
+    display: inline-block;
+    margin-top: 5px;
+}
